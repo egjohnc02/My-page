@@ -1,0 +1,70 @@
+html body {
+    background-color: #00ADB5;
+    margin: 0px;
+    text-align: center;
+    color: #222831;
+    user-select: none;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  th{
+    background-color: #3F72AF;
+    width: 300px;
+    color: #F9F7F7;
+  }
+  
+  td{
+    border-top: 1px rgb(162, 135, 135) solid;
+    text-align: center;
+  }
+  
+  table{
+    margin-bottom: 17px;
+    font-family: Chalkduster;
+    background-image: url('/images/paper.avif');
+    border-radius: 2px;
+  }
+  
+  tbody td:hover{
+    background-color: rgb(253, 180, 97);
+    cursor: pointer;
+  }
+  
+  important{
+    font-weight: 700;
+    color: rgb(82, 0, 95);
+    font-style: italic;
+  }
+  
+  h1{
+    text-align: center;
+  }
+  
+  .navbar{
+    display: flex;
+    background-color: #393E46;
+    flex-grow: 2;
+    list-style: none;
+    font-size: 30px;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .navbar a{
+    text-decoration: none;
+    color: #EEEEEE;
+  }
+  
+  .done-a-task{
+    text-decoration: line-through;
+  }
+  
+  

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon_io/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/css/Projects/TodoApp.css" />
+    <title>Todo app</title>
+  </head>
+  <body>
+    <header>
+      <ul class="navbar">
+        <li><a href="/pages/index.html">Home</a></li>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+    </header>
+    <img src="/images/cute_character.png" alt="cute cute_character" width="120px">
+    <div class="container">
+      <h1 id="heading-title"></h1>
+      <table id="tbl">
+        <thead>
+          <tr>
+            <th>Task</th>
+          </tr>
+        </thead>
+        <tbody id="data-row">
+        </tbody>
+      </table>
+      <form>
+        <input type="text" id="input-task" placeholder="Task">
+        <button id="add-button">Add</button>
+      </form>
+    </div>
+    <div>
+      <a href="https://github.com/egjohnc02/Todo-Task.git" class="source-code">Source code</a>
+    </div>
+
+    <div class="usage">
+      <h4>Usage: <strong style="font-weight: 100; color:rgb(138, 6, 6);">Double click when you done</strong></h4>
+      <summary>
+        <details>
+          <li>
+            <strong>Base: </strong>HTML, CSS and javascript
+          </li>
+          <li>
+            <strong>Database: </strong>Firebase
+          </li>
+          <li>
+            <strong>🐞: </strong>Done the task but it will not when reload the page
+          </li>
+        </details>
+      </summary>
+    </div>
+    <script src="/js/Projects/TodoApp.js" type="module"></script>
+  </body>
+</html>
