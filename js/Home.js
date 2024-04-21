@@ -14,26 +14,17 @@ const modalEl = document.getElementById('modal')
 
 onValue(taskListDB, function(snapshot) {
         let itemsArray = Object.entries(snapshot.val())
-  
-        for (let i = 0; i < itemsArray.length; i++) {
-        let currentItem = itemsArray[i];
-        let currentItemID = currentItem[0]
-        let currentItemValue = currentItem[1]
-  
-        Math.random(i)
-        currentItemID = i
-        console.log(currentItemID)
+        const random = Math.floor(Math.random() * itemsArray.length)
+        console.log(itemsArray[random])
 
-        appendItem(currentItem)
-    }
+        appendItem(itemsArray[random])
+
   })
 
   function appendItem(item) {
     let itemID = item[0]
     let itemValue = item[1]
 
-
-  
     titleEl.append(itemID)
     detailEl.append(itemValue)
   }
